@@ -8,19 +8,41 @@ import Prodotto from "./Product";
 function App() {
   return (
     <div>
-      <h2 className="testo">LA NOSTRA PRIMA CARD ADIDAS</h2>
+      <h2 className="testo" id="header">The first Card in ReactJs</h2>
       <div className="contenitore">
-          <Prodotto className="articolo" ></Prodotto>
-          <Prodotto className="articolo" ></Prodotto>
-          <Prodotto className="articolo" ></Prodotto>
-          <Prodotto className="articolo" ></Prodotto>
-          <Prodotto className="articolo" ></Prodotto>
-          <Prodotto className="articolo" ></Prodotto>
-          <Prodotto className="articolo" ></Prodotto>
-          <Prodotto className="articolo" ></Prodotto>
-          
+        <div className="articolo">
+          <Prodotto></Prodotto>
+        </div>
+        <div className="articolo">
+          <Prodotto></Prodotto>
+        </div>
+        <div className="articolo">
+          <Prodotto></Prodotto>
+        </div>
+        <div className="articolo">
+          <Prodotto></Prodotto>
+        </div>
+        <div className="articolo">
+          <Prodotto></Prodotto>
+        </div>
+
+        <div className="articolo">
+          <Prodotto></Prodotto>
+        </div>
+        <div className="articolo">
+          <Prodotto></Prodotto>
+        </div>
+        <div className="articolo">
+          <Prodotto></Prodotto>
+        </div>
+        <div className="articolo">
+          <Prodotto></Prodotto>
+        </div>
+        <div className="articolo">
+          <Prodotto></Prodotto>
+        </div>
+
       </div>
-      {/* <Componente1></Componente1> */}
     </div>
 
   );

@@ -7,7 +7,7 @@ const img = "https://egsiteassets.images.egifter.com/Images/GiftCardFaceplates/E
 const Product = () => {
     return (
         <article>
-            <div className='articolo'>
+            <div>
                 <img className='imageCard' src={img} alt={`${alt}`} />
                 <h6>10€ Amazon + 20P</h6>
                 <hr />
